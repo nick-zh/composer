@@ -1,4 +1,4 @@
-name: 'composer'
+name: 'composer-php'
 description: 'Runs composer'
 inputs:
   action:
