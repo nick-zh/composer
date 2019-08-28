@@ -1,0 +1,19 @@
+name: 'composer'
+description: 'Runs composer'
+inputs:
+  action:
+    description: 'Action to run, e.g. install'
+    required: false
+    default: install
+  options:
+    description: 'List of composer options'
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.action }}
+    - ${{ inputs.options }}
+branding:
+    icon: 'download'
+    color: 'orange'
