@@ -1,3 +1,1 @@
-FROM composer:latest
-
-RUN composer global require hirak/prestissimo
+FROM nickzurich/composer-prestissimo:latest
