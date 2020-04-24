@@ -1,1 +1,1 @@
-FROM nickzurich/composer-prestissimo:latest
+FROM nickzurich/composer-prestissimo:php7.4

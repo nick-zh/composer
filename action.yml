@@ -1,19 +1,8 @@
 name: 'composer-php'
 description: 'Runs composer (yml)'
-inputs:
-  action:
-    description: 'Action to run, e.g. install'
-    required: false
-    default: install
-  options:
-    description: 'List of composer options'
-    required: false
 runs:
   using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - ${{ inputs.action }}
-    - ${{ inputs.options }}
+  image: 'docker://nickzurich/composer-prestissimo:php7.4'
 branding:
     icon: 'download'
     color: 'orange'
