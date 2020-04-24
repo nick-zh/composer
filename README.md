@@ -1,6 +1,5 @@
 # Composer action
 
-[![GitHub release](https://img.shields.io/github/tag/nick-zh/composer)](https://github.com/nick-zh/composer/releases)
 [![GitHub license](https://img.shields.io/github/license/nick-zh/composer)](https://github.com/nick-zh/composer/blob/master/LICENSE)  
 
 ## Description
@@ -9,8 +8,8 @@ Uses the new YML syntax.
 
 ## Versions
 ## Supported versions
-`php7.4` Based on `php:7.4-cli-alpine` with [composer](https://hub.docker.com/_/composer) and [hirak/prestissimo](https://github.com/hirak/prestissimo)  
-`php7.3` Based on `php:7.3-cli-alpine` with [composer](https://hub.docker.com/_/composer) and [hirak/prestissimo](https://github.com/hirak/prestissimo)  
+`php7.4`: Based on `php:7.4-cli-alpine` with [composer](https://hub.docker.com/_/composer) and [hirak/prestissimo](https://github.com/hirak/prestissimo)  
+`php7.3`: Based on `php:7.3-cli-alpine` with [composer](https://hub.docker.com/_/composer) and [hirak/prestissimo](https://github.com/hirak/prestissimo)  
 
 ### Deprecated versions
 `0.2.0` uses a pre-built docker image [composer-prestissimo](https://github.com/nick-zh/docker-composer-prestissimo) (basing on the official composer image).
